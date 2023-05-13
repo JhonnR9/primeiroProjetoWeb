@@ -1,0 +1,77 @@
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    background: rgba(244, 244, 244, .6);
+    border-radius: 10px;
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+#logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+#logo-mario {
+    width: 400px;
+    height: 185px;
+}
+
+#logo-maratona {
+    width: 400px;
+    height: 85;
+}
+
+#logo-kenzie {
+    width: 165;
+    height: 41;
+    margin-top: 35px;
+}
+
+#jogar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+}
+
+#jogar p {
+    width: 375px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#jogar button {
+    width: 400px;
+    height: 64;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 87px;
+    color: white;
+    background: #049cd8;
+    border: 3px solid #f4f4f4;
+    border-radius: 10px;
+}
+#jogar button:hover{
+    color: #049cd8;
+    background-color: transparent;
+    border: 3px solid #049cd8;
+    cursor: pointer;
+}

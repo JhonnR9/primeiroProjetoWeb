@@ -1,0 +1,63 @@
+body {
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+header div {
+    width: 625px;
+    height: 150px;
+    background-image: url("../img/Pipe.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 35px;
+    color: #f4f4f4;
+    line-height: 55px;
+}
+
+header div p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+header button {
+    background: #e52521;
+    border: 3px solid #f4f4f4;
+    width: 200px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 80px;
+}
+header button:hover{
+    color: #f4f4f4;
+    border: 3px solid #d80404;
+    background:  #dfd807;
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 150px;
+    row-gap: 70px;
+
+}

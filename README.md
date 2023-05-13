@@ -33,7 +33,6 @@ Projeto desenvolvido para o evento Programar para Evoluir no dia 27 de agosto de
 - 'Nunito', sans-serif;
 
 ### Cores
-
 - Branco: #ffffff;
 - Gelo: #F4F4F4;
 - Amarelo: #FBD000;
